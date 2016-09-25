@@ -9,8 +9,12 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSUInteger,CategoryType){
-    CategoryTypeNSObject = 0,
-    CategoryTypeUIView
+    CategoryTypeExample = 0,
+    CategoryTypeUIView     ,
+    CategoryTypeUIImage    ,
+    CategoryTypeUIColor    ,
+    CategoryTypeNSObject   ,
+    CategoryTypeNSDate
 };
 
 @interface ViewController : UIViewController
